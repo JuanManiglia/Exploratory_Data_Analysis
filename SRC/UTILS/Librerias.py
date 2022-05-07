@@ -10,6 +10,7 @@ import plotly
 from plotly.offline import init_notebook_mode, iplot, plot
 import plotly.graph_objs as go
 from wordcloud import WordCloud
+from collections import Counter
 
 # Libreria de transformacion
 from sklearn import preprocessing

@@ -1,6 +1,6 @@
-anime = R'..\Data\df_anime.csv'
+anime = R'Data\df_anime.csv'
 
-chrome = R'..\SRC\UTILS\chromedriver.exe'
+chrome = R'SRC\UTILS\chromedriver.exe'
 
-img = R'..\SRC\UTILS\imagenes'
+img = R'SRC\UTILS\imagenes'
 

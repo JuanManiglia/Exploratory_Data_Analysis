@@ -286,6 +286,17 @@ class Plot:
         plt.axis('off')
         plt.show();
 
+    def palabras_2(dicc):
+        plt.subplots(figsize=(10,10))
+        wc = WordCloud(width=1024, height=768, background_color='white', max_font_size=400, random_state=50)
+        # Del diccionario de frecuencia
+        wc.generate_from_frequencies(dicc)
+        plt.imshow(wc)
+        plt.axis('off')
+        plt.show();
+
+
+
     def barras(df, col1, col2):
         plt.figure(figsize=(9,12))
         sns.barplot(x=df[col1], y=df[col2])
